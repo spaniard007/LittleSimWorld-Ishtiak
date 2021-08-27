@@ -20,16 +20,16 @@ public class ConversationManager : MonoBehaviour
     private Actor[] currentActors;
     private int activeMessageNo = 0;
     public bool isDialogueActive;
+    public Image decisionPanelParent;
 
     #region Singletone
-    
-    public static ConversationManager instance;
+    public static ConversationManager conversationInstance;
 
     private void Awake() {
-        if (instance != null) {
+        if (conversationInstance != null) {
             Destroy(gameObject);
         }else{
-            instance = this;
+            conversationInstance = this;
         }
     }
 
@@ -37,8 +37,8 @@ public class ConversationManager : MonoBehaviour
 
     void Start()
     {
-        dialoguePanel = GetComponent<CanvasGroup>();
         HideDialoguePanel();
+        decisionPanelParent.gameObject.SetActive(false);
     }
 
     public void OpenDialogue(Message[] messages, Actor[] actors)
@@ -86,7 +86,18 @@ public class ConversationManager : MonoBehaviour
         else
         {
             //Conversation finished
+            HideDialoguePanel();
+            ShowDecisionPanel();
             isDialogueActive = false;
+        }
+    }
+
+    public void ShowDecisionPanel()
+    {
+        if (MapManager.instance.decisionPanel != null)
+        {
+            decisionPanelParent.gameObject.SetActive(true);
+            MapManager.instance.decisionPanel.gameObject.SetActive(true);
         }
     }
 }

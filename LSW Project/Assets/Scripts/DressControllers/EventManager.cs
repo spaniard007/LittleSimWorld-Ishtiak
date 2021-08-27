@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class EventManager : MonoBehaviour
@@ -10,7 +11,10 @@ public class EventManager : MonoBehaviour
     public bool IsEventRunning;
     public Event_Catagory RunningEvent;
     public bool IsPaidVoting;
+    public GameObject createDatePanel;
+    public GameObject paidDatePanel;
 
+    
     #endregion
 
     #region singletone
@@ -29,6 +33,11 @@ public class EventManager : MonoBehaviour
     void Start()
     {
         IsEventRunning = false;
+        if(createDatePanel!=null)
+        createDatePanel.SetActive(true);
+        if(paidDatePanel != null)
+        paidDatePanel.SetActive(false);
+
     }
 
 

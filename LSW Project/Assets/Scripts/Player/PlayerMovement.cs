@@ -42,19 +42,19 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-      if (ConversationManager.instance.isDialogueActive)
-      {
-          FixAnimParam(false,false,false,false);
-      }
-      ProcessInput();
+        if (ConversationManager.conversationInstance.isDialogueActive)
+        {
+            FixAnimParam(false,false,false,false);
+        }
 
+        ProcessInput();
     }
 
     private void ProcessInput()
     {
         //Debug.Log (isRunning);
 
-        if (isRunning && !ConversationManager.instance.isDialogueActive)
+        if (isRunning && !ConversationManager.conversationInstance.isDialogueActive)
         {
 
             if (transform.position.x != tmpPos.x && transform.position.y != tmpPos.y)
@@ -100,7 +100,6 @@ public class PlayerMovement : MonoBehaviour
         //speed = 1.44f;
         tmpPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.zero);
-
 
         isRunning = true;
     }

@@ -9,6 +9,7 @@ public class MapManager : MonoBehaviour
     public Text instructionText;
     public Button EventAction;
     public Image eventImage;
+    public Image decisionPanel;
 
     public GameObject eventButtonPanel;
 
@@ -95,5 +96,10 @@ public class MapManager : MonoBehaviour
         Destroy(eventButtonPanel.gameObject);
     }
 
+    // interface based selection if time left
+    public void GetDecisionPanel(Image whichPanel)
+    {
+        decisionPanel = whichPanel;
+    }
 
 }
