@@ -1,0 +1,1008 @@
+fileFormatVersion: 2
+guid: 149ea1e4f8929fe4ea16660b3af5baac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5970654101772427663
+    second: Tilesheet-land-v5_0
+  - first:
+      213: -3194500401991258217
+    second: Tilesheet-land-v5_1
+  - first:
+      213: 4887715624173199516
+    second: Tilesheet-land-v5_2
+  - first:
+      213: -3572725953869605522
+    second: Tilesheet-land-v5_3
+  - first:
+      213: -5575413565636879011
+    second: Tilesheet-land-v5_4
+  - first:
+      213: 7513430335957132269
+    second: Tilesheet-land-v5_5
+  - first:
+      213: 778177619164690405
+    second: Tilesheet-land-v5_6
+  - first:
+      213: -2175238033933684102
+    second: Tilesheet-land-v5_7
+  - first:
+      213: -1726314819092498891
+    second: Tilesheet-land-v5_8
+  - first:
+      213: -4832865193580093904
+    second: Tilesheet-land-v5_9
+  - first:
+      213: 5605540046241686114
+    second: Tilesheet-land-v5_10
+  - first:
+      213: 5512126853115836616
+    second: Tilesheet-land-v5_11
+  - first:
+      213: 1792754718630850873
+    second: Tilesheet-land-v5_12
+  - first:
+      213: 4066252992924574146
+    second: Tilesheet-land-v5_13
+  - first:
+      213: 6533783855692541428
+    second: Tilesheet-land-v5_14
+  - first:
+      213: -4083523938481259815
+    second: Tilesheet-land-v5_15
+  - first:
+      213: -8936078158281322563
+    second: Tilesheet-land-v5_16
+  - first:
+      213: -1025854567305633893
+    second: Tilesheet-land-v5_17
+  - first:
+      213: 1922626409657942977
+    second: Tilesheet-land-v5_18
+  - first:
+      213: 9219546596815561282
+    second: Tilesheet-land-v5_19
+  - first:
+      213: -8393898892156187635
+    second: Tilesheet-land-v5_20
+  - first:
+      213: 1821727065422441734
+    second: Tilesheet-land-v5_21
+  - first:
+      213: 8990013131521029276
+    second: Tilesheet-land-v5_22
+  - first:
+      213: 1557742931088605168
+    second: Tilesheet-land-v5_23
+  - first:
+      213: -1906669984920032558
+    second: Tilesheet-land-v5_24
+  - first:
+      213: -8988499709917462785
+    second: Tilesheet-land-v5_25
+  - first:
+      213: -5521362231450588848
+    second: Tilesheet-land-v5_26
+  - first:
+      213: -7957204700395193693
+    second: Tilesheet-land-v5_27
+  - first:
+      213: 60704171676058369
+    second: Tilesheet-land-v5_28
+  - first:
+      213: 1840380282703469959
+    second: Tilesheet-land-v5_29
+  - first:
+      213: 592740563416520748
+    second: Tilesheet-land-v5_30
+  - first:
+      213: -4577472288462797878
+    second: Tilesheet-land-v5_31
+  - first:
+      213: 3744483973049351287
+    second: Tilesheet-land-v5_32
+  - first:
+      213: -6808522635763657063
+    second: Tilesheet-land-v5_33
+  - first:
+      213: -7078336867842668605
+    second: Tilesheet-land-v5_34
+  - first:
+      213: -8237765088734011912
+    second: Tilesheet-land-v5_35
+  - first:
+      213: -4890123998362411996
+    second: Tilesheet-land-v5_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 298
+        width: 81
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81efdc85460cd250800000000000000
+      internalID: 5970654101772427663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fe7704fcadaa3d0800000000000000
+      internalID: -3194500401991258217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 356
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9068f5c677a4d340800000000000000
+      internalID: 4887715624173199516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_3
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 354
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6598cf8ca02b6ec0800000000000000
+      internalID: -3572725953869605522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5dd150e6e620a2b0800000000000000
+      internalID: -5575413565636879011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_5
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 357
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de36e5b2511154860800000000000000
+      internalID: 7513430335957132269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_6
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 354
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e77872fb64acca00800000000000000
+      internalID: 778177619164690405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_7
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 322
+        width: 63
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72b675788000d1e0800000000000000
+      internalID: -2175238033933684102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_8
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 322
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536bf7581d5ea08e0800000000000000
+      internalID: -1726314819092498891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_9
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 326
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e1f4946b63eecb0800000000000000
+      internalID: -4832865193580093904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_10
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 326
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262667ef8f0eacd40800000000000000
+      internalID: 5605540046241686114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 293
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c87cdc1b220f7c40800000000000000
+      internalID: 5512126853115836616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_12
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 310
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931b56d0be421e810800000000000000
+      internalID: 1792754718630850873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_13
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 311
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1632a9d8b3e6830800000000000000
+      internalID: 4066252992924574146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_14
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 289
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd6cbd9cc9acaa50800000000000000
+      internalID: 6533783855692541428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_15
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 305
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da35070d986457c0800000000000000
+      internalID: -4083523938481259815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_16
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 294
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfc38aa24cacf380800000000000000
+      internalID: -8936078158281322563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_17
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 298
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f198cc4be63c1f0800000000000000
+      internalID: -1025854567305633893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_18
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 306
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c34277788a8eaa10800000000000000
+      internalID: 1922626409657942977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_19
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 293
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2426a5558c862ff70800000000000000
+      internalID: 9219546596815561282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_20
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 296
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c4c7c2e61e28b80800000000000000
+      internalID: -8393898892156187635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_21
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 300
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d28343d13184910800000000000000
+      internalID: 1821727065422441734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_22
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 293
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94786edf41f2cc70800000000000000
+      internalID: 8990013131521029276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_23
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 291
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff79ea41f63e9510800000000000000
+      internalID: 1557742931088605168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_24
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 295
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da21fc20c52a85e0800000000000000
+      internalID: -1906669984920032558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_25
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 294
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffefaae032f624380800000000000000
+      internalID: -8988499709917462785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_26
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 294
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059212ecd4e2063b0800000000000000
+      internalID: -5521362231450588848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa30ebeb74529190800000000000000
+      internalID: -7957204700395193693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_28
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 225
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103c22d5f1aa7d000800000000000000
+      internalID: 60704171676058369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_29
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 224
+        width: 69
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d5c2acd185a8910800000000000000
+      internalID: 1840380282703469959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_30
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 236
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c281866e666d93800800000000000000
+      internalID: 592740563416520748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_31
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 202
+        width: 76
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac30bf4c43d8970c0800000000000000
+      internalID: -4577472288462797878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_32
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 260
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77cffb8955417f330800000000000000
+      internalID: 3744483973049351287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 225
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996d9126cb44381a0800000000000000
+      internalID: -6808522635763657063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_34
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 81
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7cfaf0f12b4cd90800000000000000
+      internalID: -7078336867842668605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_35
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 42
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd15ee1c449dad80800000000000000
+      internalID: -8237765088734011912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tilesheet-land-v5_36
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 10
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cdef9e12ac22cb0800000000000000
+      internalID: -4890123998362411996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

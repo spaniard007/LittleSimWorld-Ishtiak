@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: e1adf39ebd04c024c9c4ecfbd09e741b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Bauer
+  fontNames:
+  - Bauer
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 43314c94ffa82fe41a0bd81ae057e84d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

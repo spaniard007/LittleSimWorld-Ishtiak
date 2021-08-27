@@ -1,0 +1,4 @@
+Panton - Black: Heavier texts
+Panton - Light: Lighter Texts
+
+Panton - Black Italic: $$$ sign
