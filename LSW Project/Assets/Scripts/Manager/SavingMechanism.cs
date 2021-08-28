@@ -4,7 +4,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public static class SavingMechanism
 {
-    readonly static string fileName = "GameData.lsw"; //file format with name
+    readonly static string fileName = "GameData1.lsw"; //file format with name
     public static void SaveData(Dress_Bought_List data)
     {
         BinaryFormatter formatter = new BinaryFormatter();

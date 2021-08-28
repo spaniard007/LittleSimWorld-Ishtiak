@@ -155,7 +155,7 @@ public class ShopManager : MonoBehaviour, IDressButtonCall
         if (price < coin)
         {
             confirmation_box_text.text = "Are you sure you want to buy this" +
-                " dress at $" + price + " ?";
+                " dress at XELDA" + price + " ?";
             return true;
         }
         else

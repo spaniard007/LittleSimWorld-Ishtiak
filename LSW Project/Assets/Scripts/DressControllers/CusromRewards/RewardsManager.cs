@@ -62,7 +62,7 @@ public class RewardsManager : MonoBehaviour
         DressList.Instance.Add_Coin(_coin);
 
         rewardsPanel.SetActive(true);
-        instructionText.text = "Congratulations \n \n you won <color=#ff0000>" + _coin + " </color>Coin";
+        instructionText.text = "Congratulations \n \n you won <color=#ff0000>" + _coin + " </color>XELDA";
 
         Debug.Log("Giving rewards date " + PlayerPrefs.GetString("GivingRewardsDate") + " " + _coin);
     }

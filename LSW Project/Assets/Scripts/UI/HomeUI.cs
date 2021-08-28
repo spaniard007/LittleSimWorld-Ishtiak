@@ -272,4 +272,17 @@ public class HomeUI : MonoBehaviour, IDressButtonCall
 
     #endregion
 
+    public void ReadyBTN()
+    {
+        Audiomanager.instance.PlayBtnSound();
+        if (EventManager.instance.IsEventRunning)
+        {
+            SceneChanger.instance.GoTOScene(4);
+        }
+        else
+        {
+            SceneChanger.instance.GoTOScene(1);
+        }
+    }
+
 }

@@ -38,10 +38,15 @@ public class PlayerMovement : MonoBehaviour
 
         target = transform.position;
         anim = GetComponent<Animator>();
+        //transform.position = new Vector3(PlayerPrefs.GetFloat(("posX")), PlayerPrefs.GetFloat(("posY")),
+       //     transform.position.z);
     }
 
     void Update()
     {
+        PlayerPrefs.SetFloat("posX",transform.position.x);
+        PlayerPrefs.SetFloat("posY",transform.position.y);
+
         if (ConversationManager.conversationInstance.isDialogueActive)
         {
             FixAnimParam(false,false,false,false);

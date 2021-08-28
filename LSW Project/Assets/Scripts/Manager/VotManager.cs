@@ -59,6 +59,7 @@ public class VotManager : MonoBehaviour
 
     public void GetResult()
     {
+        Audiomanager.instance.PlayResultSound();
         if (_IsResultShowed)
             return;
 

@@ -80,6 +80,7 @@ public class MapManager : MonoBehaviour
 
     public void StartEvent(bool Ispaid)
     {
+        Audiomanager.instance.PlayBtnSound();
         EventManager.instance.StartAnEvent(Ispaid);
         eventImage.gameObject.SetActive(true);
         //eventButtonPanel.SetActive(false);

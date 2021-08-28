@@ -82,7 +82,7 @@ public class ContentGrid : MonoBehaviour
         b.onClick.AddListener(() => manager.Dress_Button_Click(index));
 
         dress_img.sprite = sprite;
-        proce_text.text = "$"+price;
+        proce_text.text = "<b> <color=#F76C26>XELDA</color></b> "+price;
     }
 
     #endregion

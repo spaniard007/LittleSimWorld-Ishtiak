@@ -11,7 +11,11 @@ public class HUDManager : MonoBehaviour
     public Image votingPanel;
     public TextMeshProUGUI xeldaTxt;
     public int gameTimer = 0;
-    
+    public TextMeshProUGUI dateInfoTMP;
+    public Sprite[] soundIcon;
+    public Image soundBTN;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +24,14 @@ public class HUDManager : MonoBehaviour
         resumePanel.gameObject.SetActive(false);
         gameOverPanel.gameObject.SetActive(false);
         CountDown();
+        if (Audiomanager.instance.bgSound.enabled)
+        {
+            soundBTN.sprite = soundIcon[1];
+        }
+        else
+        {
+            soundBTN.sprite = soundIcon[0];
+        }
         //GoForVote();
     }
 
@@ -37,10 +49,20 @@ public class HUDManager : MonoBehaviour
     void Update()
     {
         xeldaTxt.text = DressList.Instance.Get_Coin().ToString();
+        if (EventManager.instance.IsEventRunning)
+        {
+            dateInfoTMP.text = "You an upcoming \"<b> <color=#F76C26>" + EventManager.instance.RunningEvent +
+                               "</color></b>\" event.";
+        }
+        else
+        {
+            dateInfoTMP.text = "You don't have any upcoming event!";
+        }
     }
 
     public void PauseGame()
     {
+        Audiomanager.instance.PlayBtnSound();
         ShowResumePanel();
     }
 
@@ -51,6 +73,7 @@ public class HUDManager : MonoBehaviour
     }
 
     public void ResumeGame(){
+        Audiomanager.instance.PlayBtnSound();
         resumePanel.GetComponent<TweenTransforms>().SwitchTargets();
         resumePanel.GetComponent<TweenTransforms>().Begin();
         Invoke("HideResumePanel",0.5f);
@@ -63,10 +86,20 @@ public class HUDManager : MonoBehaviour
 
     public void SoundToggle()
     {
-        //control music
+        if (Audiomanager.instance.bgSound.enabled)
+        {
+            soundBTN.sprite = soundIcon[0];
+            Audiomanager.instance.SoundOff();
+        }
+        else
+        {
+            soundBTN.sprite = soundIcon[1];
+            Audiomanager.instance.SoundOn();
+        }
     }
     public void GoToMenu()
     {
+        Audiomanager.instance.PlayBtnSound();
         SceneChanger.instance.GoTOScene(0);
     }
     
@@ -86,12 +119,16 @@ public class HUDManager : MonoBehaviour
     
     public void ShowGameOverPanel()
     {
+        Audiomanager.instance.PlayBtnSound();
         gameOverPanel.gameObject.SetActive(true);
         gameOverPanel.GetComponent<TweenTransforms>().Begin();
     }
 
     public void RestartGame()
     {
+        Audiomanager.instance.PlayBtnSound();
         DressList.Instance.Add_Coin(100f);
     }
+    
+    
 }

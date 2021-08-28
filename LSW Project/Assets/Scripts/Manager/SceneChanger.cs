@@ -62,6 +62,7 @@ public class SceneChanger : MonoBehaviour
 
     public void GoTOScene(int i)
     {
+        Audiomanager.instance.PlayBtnSound();
         if (i > -1)
             SceneManager.LoadScene(i);
         else
