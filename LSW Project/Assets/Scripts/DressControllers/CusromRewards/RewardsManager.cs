@@ -58,7 +58,7 @@ public class RewardsManager : MonoBehaviour
         yield return new WaitForSeconds(1);
         
         PlayerPrefs.SetString("GivingRewardsDate", _currentDate);
-        int _coin = UnityEngine.Random.Range(10, 20);
+        int _coin = UnityEngine.Random.Range(10, 100);
         DressList.Instance.Add_Coin(_coin);
 
         rewardsPanel.SetActive(true);

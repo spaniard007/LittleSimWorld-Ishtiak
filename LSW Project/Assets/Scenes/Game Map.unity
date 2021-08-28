@@ -169,6 +169,7 @@ MonoBehaviour:
   instructionText: {fileID: 223329191}
   EventAction: {fileID: 142615756}
   eventImage: {fileID: 74615282}
+  decisionPanel: {fileID: 0}
   eventButtonPanel: {fileID: 1345345180}
   _eventImage:
   - {fileID: 21300000, guid: c2e429ebc5fa9bc489bfbd7457e552b4, type: 3}
@@ -2381,6 +2382,8 @@ MonoBehaviour:
   IsEventRunning: 0
   RunningEvent: 0
   IsPaidVoting: 0
+  createDatePanel: {fileID: 0}
+  paidDatePanel: {fileID: 0}
 --- !u!1 &1333073150
 GameObject:
   m_ObjectHideFlags: 0

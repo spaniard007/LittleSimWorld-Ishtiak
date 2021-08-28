@@ -12,8 +12,8 @@ public class NPCDialogue : MonoBehaviour
     private void Start()
     {
         trigger = gameObject.GetComponent<ConversationTrigger>();
+        if(decisionPanel != null)
         decisionPanel.gameObject.SetActive(false);
-        
     }
 
     private void OnCollisionEnter2D(Collision2D other)

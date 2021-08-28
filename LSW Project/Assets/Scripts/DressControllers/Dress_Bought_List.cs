@@ -70,7 +70,9 @@ public class Dress_Bought_List {
 
     public void GetCurrentDress(out int shirtID, out int pantID, out int fullSetID, out int jwelleryID, out int shoesID)
     {
+        Debug.Log(Dress_Type.Shirt.ToString());
         shirtID = current_dress[Dress_Type.Shirt.ToString()];
+        Debug.Log("4");
         pantID = current_dress[Dress_Type.Pant.ToString()];
         fullSetID = current_dress[Dress_Type.Full_Set.ToString()];
         jwelleryID = current_dress[Dress_Type.Jwellary.ToString()];

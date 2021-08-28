@@ -37,6 +37,7 @@ public class ConversationManager : MonoBehaviour
 
     void Start()
     {
+        dialoguePanel.gameObject.SetActive(true);
         HideDialoguePanel();
         decisionPanelParent.gameObject.SetActive(false);
     }
